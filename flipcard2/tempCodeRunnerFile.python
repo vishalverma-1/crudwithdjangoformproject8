@@ -1,0 +1,7 @@
+a=[[1,2,3],[4,5,6],[7,8,9]]
+b=[]
+l=len(a)
+for x in range(len(a)):
+    print(x,end="_")
+    if a[x]<=l:
+        print("h")
